@@ -1,0 +1,23 @@
+.chessboard {
+    width: 400px; /* Total width of the board */
+    height: 400px; /* Total height of the board */
+    border: 1px solid #000;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row {
+    display: flex;
+}
+
+.square {
+    width: 12.5%; /* Each square is 1/8 of the board's width */
+    height: 12.5%; /* Each square is 1/8 of the board's height */
+}
+
+.black {
+    background-color: #777;
+}
+
+.white {
+    background-color: #fff}

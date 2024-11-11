@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .lucy {
+    max-width: 300px; /* adjust the width to your liking */
+    background-color: #f2cece;
+    padding: 100px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(8, 191, 215, 0.1)
+  }
+  .input1{
+    font-size: large;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  .regis {
+    max-width: 300px; /* adjust the width to your liking */
+    background-color: #f2cece;
+    padding: 100px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(8, 191, 215, 0.1)
+   
+  }
+  
+  .name {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .name input {
+    width: 45%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .maipas, .phn {
+    margin-bottom: 20px;
+  }
+  
+  .maipas input, .phn input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+  }
+  .password {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px
+  }
+  
+  button {
+    background-color: #2a512c;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #a8f2ab;
+  }
